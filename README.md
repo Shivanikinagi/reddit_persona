@@ -2,20 +2,26 @@ Reddit Persona Generator
 This repository contains a script to generate user personas based on Reddit activity.
 Setup
 
-Install dependencies:pip install -r requirements.txt
+Install dependencies:
+
+pip install -r requirements.txt
 
 
-Create a .env file in the project root directory with the following content:REDDIT_CLIENT_ID=YourClientID
+Create a .env file in the project root directory with the following content:
+
+REDDIT_CLIENT_ID=YourClientID
 REDDIT_CLIENT_SECRET=YourClientSecret
 
 Obtain these credentials from https://www.reddit.com/prefs/apps.
-Create an output directory in the project folder:mkdir output
 
+Create an output directory in the project folder:'
 
+mkdir output
 
 Usage
 
-Run the script:python main.py
+Run the script:
+python main.py
 
 
 Enter a Reddit user profile URL (e.g., https://www.reddit.com/user/kojied/).
