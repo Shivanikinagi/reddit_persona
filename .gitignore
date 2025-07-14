@@ -1,0 +1,15 @@
+# .gitignore
+
+# Python virtual environment
+venv/
+/venv/
+__pycache__/
+beyondchats/
+
+# Environment variables
+.env
+
+# IDE and OS files
+.idea/
+.vscode/
+*.DS_Store
